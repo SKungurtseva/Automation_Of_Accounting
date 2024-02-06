@@ -1,5 +1,4 @@
 public class MonthData {
-
     public int expenses;
     public int income;
     String itemName;
@@ -13,5 +12,4 @@ public class MonthData {
         this.quantity = quantity;
         this.sumOfOn = sum;
     }
-
 }

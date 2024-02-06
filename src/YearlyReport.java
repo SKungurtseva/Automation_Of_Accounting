@@ -46,7 +46,6 @@ public class YearlyReport {
                 oneMonthData.income += sum;
             }
         }
-
     }
 
     public int getSumProfitMonth(int month) {

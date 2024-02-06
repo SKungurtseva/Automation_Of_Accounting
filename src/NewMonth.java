@@ -19,7 +19,6 @@ public class NewMonth {
             int quantity = Integer.parseInt(parts[2]);
             int sumOfOne = Integer.parseInt(parts[3]);
 
-
             if (!monthDataMap.containsKey(itemName)) {
                 monthDataMap.put(itemName, new MonthData(itemName, isExpense, quantity, sumOfOne));
             }
